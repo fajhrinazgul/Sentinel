@@ -24,6 +24,10 @@ DROP DATABASE sekolah;
 -- Perhatikan ! Apabila ingin menampilkan daftar database atau table, selalu akhiri dengan tambahan s
 SHOW DATABASES;
 ```
+6. Menampilkan daftar table dalam suatu database
+```SQL
+SHOW tables;
+```
 7. Membuat table
 ```SQL
 CREATE TABLE siswa(
