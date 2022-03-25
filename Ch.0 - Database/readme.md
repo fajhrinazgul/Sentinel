@@ -32,7 +32,8 @@ CREATE TABLE siswa(
   tempat_lahir varchar(10) not null,
   tanggal_lahir data not null,
   alamat text not null,
-  agama varchar(10) not null);
+  agama varchar(10) not null
+  );
 ```
 9. Menghapus table
 10. Merubah table
