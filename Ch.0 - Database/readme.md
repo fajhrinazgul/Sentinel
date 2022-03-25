@@ -36,13 +36,21 @@ CREATE TABLE siswa(
   tempat_lahir varchar(10) not null,
   tanggal_lahir data not null,
   alamat text not null,
-  agama varchar(10) not null
+  agama int not null
   );
 ```
 9. Menghapus table
 10. Merubah table
-11. Memasukkan data
-12. Menampilkan data
+```SQL
+-- Menambah column baru
+ALTER TABLE siswa add varian int;
+-- Menghapus column baru
+ALTER TABLE siswa DROP varian;
+-- Merubah tipe data
+ALTER TABLE siswa MODIFY agama varchar(10);
+```
+12. Memasukkan data
+13. Menampilkan data
 ```SQL
 -- Menampilkan seluruh data
 SELECT * FROM siswa;
