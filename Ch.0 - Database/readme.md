@@ -4,31 +4,31 @@
 
 #### ```;``` digunakan untuk mengakhiri perintah dari query command
 
-1. Membuat database
+Membuat database
 ```sql
 -- Membuat Database Sekolah
 CREATE DATABASE Sekolah;
 ```
-2. Menggunakan database
+Menggunakan database
 ```SQL
 -- Memakai Database Sekolah
 USE Sekolah;
 ```
-3. Menghapus database
+Menghapus database
 ```SQL
 -- Menghapus database sekolah
 DROP DATABASE sekolah;
 ```
-5. Menampilkan database yang ada
+Menampilkan database yang ada
 ```SQL
 -- Perhatikan ! Apabila ingin menampilkan daftar database atau table, selalu akhiri dengan tambahan s
 SHOW DATABASES;
 ```
-6. Menampilkan daftar table dalam suatu database
+Menampilkan daftar table dalam suatu database
 ```SQL
 SHOW tables;
 ```
-7. Membuat table
+Membuat table
 ```SQL
 CREATE TABLE siswa(
   nisn int not null primary key auto_increment;
@@ -39,8 +39,15 @@ CREATE TABLE siswa(
   agama int not null
   );
 ```
-9. Menghapus table
-10. Merubah table
+Menghapus data dalam table
+```SQL
+TRUNCATE TABLE siswa;
+```
+Menghapus table
+```SQL
+DROP TABLE siswa;
+```
+Merubah table
 ```SQL
 -- Menambah column baru
 ALTER TABLE siswa add varian int;
