@@ -56,18 +56,18 @@ ALTER TABLE siswa DROP varian;
 -- Merubah tipe data
 ALTER TABLE siswa MODIFY agama varchar(10);
 ```
-12. Memasukkan data
-13. Menampilkan data
+Memasukkan data
+Menampilkan data
 ```SQL
 -- Menampilkan seluruh data
 SELECT * FROM siswa;
 ```
-10. Menampilkan data dengan kondisi tertentu
+Menampilkan data dengan kondisi tertentu
 ```SQL
 -- Menampilkan data seluruh siswa dengan jenis kelamin Perempuan
 SELECT * FROM siswa WHERE jekel = 'Perempuan';
 ```
-11. Menampilkan n-data
+Menampilkan n-data
 ```SQL
 -- Menampilkan 5 data teratas dari tabel siswa
 SELECT * FROM siswa LIMIT 5;
