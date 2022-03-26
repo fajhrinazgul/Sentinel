@@ -70,5 +70,5 @@ SELECT * FROM siswa WHERE jekel = 'Perempuan';
 11. Menampilkan n-data
 ```SQL
 -- Menampilkan 5 data teratas dari tabel siswa
-SELECT * FROM siswa LIMIT 5
+SELECT * FROM siswa LIMIT 5;
 ```
