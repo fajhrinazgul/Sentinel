@@ -57,6 +57,9 @@ ALTER TABLE siswa DROP varian;
 ALTER TABLE siswa MODIFY agama varchar(10);
 ```
 Memasukkan data
+```SQL
+INSERT INTO siswa VALUES(1,'Budi','Riau','2022-01-01','Planet Namek','Islam');
+```
 Menampilkan data
 ```SQL
 -- Menampilkan seluruh data
