@@ -1,5 +1,4 @@
-# Data-Adventure
-
-1. [Python Programming](/Ch.1%20-%20Python%20Programming) -> Basic and Intermediate Python.
-2. [Data Manipulation](/Ch.2%20-%20Data%20Manipulation) -> How to manipulate data
-3. [Data Visualization](/Ch.3%20-%20Data%20Visualization) -> How to visualize data
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+2. Convolutional Neural Networks in TensorFlow
+3. Natural Language Processing
+4. Sequence, Time Series and Prediction
