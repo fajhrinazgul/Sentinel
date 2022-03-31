@@ -23,6 +23,16 @@ Optimizer
 
 Autoencoders
 
-Natural Language Processing
+NLP = Natural Language Processing
 
-Convolutional Neural Network
+CNN - Convolutional Neural Network
+
+LSTM - Long Short Term Memory
+
+RNN - Recurrent Neural Network
+
+Which Activation Functions ?
+| Activation Function | When |
+|:-------------------:|:----:|
+| ReLu | |
+
