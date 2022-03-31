@@ -20,3 +20,9 @@ Batch Training
 Loss Function
 
 Optimizer
+
+Autoencoders
+
+Natural Language Processing
+
+Convolutional Neural Network
