@@ -7,6 +7,18 @@ Machine Learning
 Model Building Steps
 > Specify Architecture<br>Compile<br>Fit<br>Predict
 
+Tensor
+
+Layers
+
+Nodes
+
+Weight
+
+Bias
+
+Augmentation
+
 Forward Propagation
 
 Backward Propagation
