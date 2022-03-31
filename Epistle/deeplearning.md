@@ -19,6 +19,8 @@ Bias
 
 Augmentation
 
+Learning Rate
+
 Forward Propagation
 
 Backward Propagation
